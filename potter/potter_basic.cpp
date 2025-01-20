@@ -1,9 +1,10 @@
 #include <iostream>
 
 int main(){
-	int *x;
-	int *c = x;
-	std::cout << c << std::endl;
+	int x = 10;
+	std::cout << &x << std::endl;
+	int* p = &x;
+	std::cout << &p << std::endl;
 	return 0;
 }
 
