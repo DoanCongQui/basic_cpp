@@ -1,7 +1,9 @@
 #include <iostream>
 
 int main(){
-	std::cout << "Hello Quis\n";
+	int *x;
+	int *c = x;
+	std::cout << c << std::endl;
 	return 0;
 }
 
